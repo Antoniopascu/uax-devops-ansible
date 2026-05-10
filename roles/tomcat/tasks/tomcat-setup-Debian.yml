@@ -98,7 +98,7 @@
         owner: tomcat
         group: tomcat
         mode: '0644'
-      notify: restart_tomcat
+        notify: restart_tomcat
 
   # Esta es la condición clave que pediste
   when:
